@@ -190,7 +190,7 @@ input {
   -moz-column-gap: 30px;
        column-gap: 30px;
   /* Если меньше контейнера */
-  row-gap: 20px;
+  row-gap: 10px;
   display: grid;
 }
 @media (max-width: 600px) {
@@ -201,7 +201,7 @@ input {
 }
 @media (max-width: 600px) {
   .check__list {
-    row-gap: calc(15px + 5 * ((100vw - 320px) / 280));
+    row-gap: calc(5px + 5 * ((100vw - 320px) / 280));
   }
 }
 @media (min-width: 480.2px) {
@@ -229,6 +229,7 @@ input {
   opacity: 1;
 }
 .check__label {
+  padding: 5px 0px;
   display: flex;
   align-items: center;
   position: relative;
