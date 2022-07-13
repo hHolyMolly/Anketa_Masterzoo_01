@@ -230,7 +230,7 @@ input {
   position: relative;
   cursor: pointer;
 }
-@media (any-hover: hover) {
+@media (min-width: 768.2px) and (any-hover: hover) {
   .check__label:hover:after {
     opacity: 0.4;
   }
