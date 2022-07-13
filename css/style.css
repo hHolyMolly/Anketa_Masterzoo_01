@@ -770,7 +770,6 @@ body._lock-scroll {
 .thanks__text-block {
   /* Если меньше контейнера */
   padding-top: 77px;
-  /* Если меньше контейнера */
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -780,12 +779,7 @@ body._lock-scroll {
 }
 @media (max-width: 600px) {
   .thanks__text-block {
-    padding-top: calc(87px + -10 * ((100vw - 320px) / 280));
-  }
-}
-@media (max-width: 600px) {
-  .thanks__text-block {
-    padding-bottom: calc(50px + -10 * ((100vw - 320px) / 280));
+    padding-top: calc(67px + 10 * ((100vw - 320px) / 280));
   }
 }
 @media (min-width: 768.2px) {
@@ -807,7 +801,7 @@ body._lock-scroll {
   }
 }
 .thanks__title {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   /* Если меньше контейнера */
   font-size: 28px;
   font-weight: 720;
