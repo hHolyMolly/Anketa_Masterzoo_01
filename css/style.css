@@ -214,11 +214,6 @@ input {
     grid-row: 1fr;
   }
 }
-@media (any-hover: hover) {
-  .check__item:hover .check__label:after {
-    opacity: 0.4;
-  }
-}
 .check__checkbox {
   display: none;
 }
@@ -234,6 +229,11 @@ input {
   align-items: center;
   position: relative;
   cursor: pointer;
+}
+@media (any-hover: hover) {
+  .check__label:hover:after {
+    opacity: 0.4;
+  }
 }
 .check__label span {
   /* Если меньше контейнера */
