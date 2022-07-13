@@ -214,6 +214,11 @@ input {
     grid-row: 1fr;
   }
 }
+@media (any-hover: hover) {
+  .check__item:hover .check__label:after {
+    opacity: 0.4;
+  }
+}
 .check__checkbox {
   display: none;
 }
@@ -731,6 +736,34 @@ body._lock-scroll {
   overflow: hidden;
   background-color: #AEC343;
 }
+@media (min-width: 768.2px) {
+  .thanks {
+    -webkit-animation-name: animationBlock;
+            animation-name: animationBlock;
+    -webkit-animation-duration: 0.6s;
+            animation-duration: 0.6s;
+  }
+  @-webkit-keyframes animationBlock {
+    0% {
+      opacity: 0;
+      transform: scale(0.6);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes animationBlock {
+    0% {
+      opacity: 0;
+      transform: scale(0.6);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
 @media (max-width: 768.2px) {
   .thanks {
     border-radius: 0px;
@@ -767,8 +800,19 @@ body._lock-scroll {
     height: 100%;
   }
 }
+@media (min-width: 768.2px) {
+  .thanks__logo {
+    display: none;
+  }
+}
+@media (max-width: 768.2px) {
+  .thanks__logo {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
 .thanks__text-block {
-  /* Если меньше контейнера */
   padding-top: 77px;
   padding-bottom: 40px;
   display: flex;
@@ -776,11 +820,6 @@ body._lock-scroll {
   justify-content: flex-end;
   position: relative;
   z-index: 2;
-}
-@media (max-width: 600px) {
-  .thanks__text-block {
-    padding-top: calc(67px + 10 * ((100vw - 320px) / 280));
-  }
 }
 @media (min-width: 768.2px) {
   .thanks__text-block {
@@ -796,8 +835,15 @@ body._lock-scroll {
 }
 @media (max-width: 768.2px) {
   .thanks__text-block {
+    /* Если меньше контейнера */
+    padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+@media (max-width: 768.2px) and (max-width: 600px) {
+  .thanks__text-block {
+    padding-top: calc(15px + 10 * ((100vw - 320px) / 280));
   }
 }
 .thanks__title {
@@ -865,7 +911,7 @@ body._lock-scroll {
   color: #fff;
 }
 .thanks-footer__icons {
-  row-gap: 10px;
+  row-gap: 13px;
   /* Если меньше контейнера */
   margin-top: 15px;
   display: flex;
