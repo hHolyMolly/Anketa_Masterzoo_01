@@ -780,12 +780,12 @@ body._lock-scroll {
 }
 @media (max-width: 600px) {
   .thanks__text-block {
-    padding-top: calc(57px + 20 * ((100vw - 320px) / 280));
+    padding-top: calc(87px + -10 * ((100vw - 320px) / 280));
   }
 }
 @media (max-width: 600px) {
   .thanks__text-block {
-    padding-bottom: calc(30px + 10 * ((100vw - 320px) / 280));
+    padding-bottom: calc(50px + -10 * ((100vw - 320px) / 280));
   }
 }
 @media (min-width: 768.2px) {
@@ -854,6 +854,8 @@ body._lock-scroll {
 }
 @media (max-width: 768.2px) {
   .thanks__footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
     height: 100%;
     border-radius: 0px;
   }
@@ -870,10 +872,16 @@ body._lock-scroll {
 }
 .thanks-footer__icons {
   row-gap: 10px;
+  /* Если меньше контейнера */
   margin-top: 15px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .thanks-footer__icons {
+    margin-top: calc(25px + -10 * ((100vw - 320px) / 280));
+  }
 }
 .thanks-footer__icon:not(:last-child) {
   /* Если меньше контейнера */
