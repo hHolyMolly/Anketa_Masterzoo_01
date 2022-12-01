@@ -260,7 +260,7 @@ body._lock-scroll {
 }
 @media (max-width: 1170px) {
   .page__main-block {
-    min-height: calc(150px + 150 * ((100vw - 320px) / 850));
+    min-height: calc(220px + 80 * ((100vw - 320px) / 850));
   }
 }
 .page__main-block:not(:last-child) {
@@ -276,6 +276,16 @@ body._lock-scroll {
   .page__main-block {
     background-size: contain;
     background-position: center 0;
+  }
+}
+@media (max-width: 768.2px) {
+  .page__main-block {
+    background-size: 1154px 310px;
+  }
+}
+@media (max-width: 480.2px) {
+  .page__main-block {
+    background-size: 1054px 230px;
   }
 }
 .page__main-block_support:not(:last-child) {
@@ -590,10 +600,17 @@ body._lock-scroll {
 }
 .main-block__text {
   /* Если меньше контейнера */
+  max-width: 460px;
+  /* Если меньше контейнера */
   font-size: 18px;
   font-weight: 300;
   line-height: 138.8888888889%;
   color: #ffffff;
+}
+@media (max-width: 1170px) {
+  .main-block__text {
+    max-width: calc(200px + 260 * ((100vw - 320px) / 850));
+  }
 }
 @media (max-width: 1170px) {
   .main-block__text {
