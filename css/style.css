@@ -104,14 +104,14 @@ input {
 @font-face {
   font-family: "Azo Sans";
   src: url("../fonts/AzoSans-Light.eot");
-  src: local("☺"), url("../fonts/AzoSans-Light.woff") format("woff"), url("../fonts/AzoSans-Light.ttf") format("truetype"), url("../fonts/AzoSans-Light.svg") format("svg");
+  src: local("Azo Sans Light"), local("AzoSans-Light"), url("../fonts/AzoSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/AzoSans-Light.woff2") format("woff2"), url("../fonts/AzoSans-Light.woff") format("woff"), url("../fonts/AzoSans-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Azo Sans";
   src: url("../fonts/AzoSans-Regular.eot");
-  src: local("☺"), url("../fonts/AzoSans-Regular.woff") format("woff"), url("../fonts/AzoSans-Regular.ttf") format("truetype"), url("../fonts/AzoSans-Regular.svg") format("svg");
+  src: local("Azo Sans Regular"), local("AzoSans-Regular"), url("../fonts/AzoSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AzoSans-Regular.woff2") format("woff2"), url("../fonts/AzoSans-Regular.woff") format("woff"), url("../fonts/AzoSans-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
