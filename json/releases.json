@@ -1,0 +1,34 @@
+{
+	"releases": [
+		{
+			"name": "Top IT Services Firms in Chicago",
+			"link": "https://clutch.co/press-releases/clutch-releases-new-report-top-it-services-firms-chicago",
+			"image": "link",
+			"altImage": "link"
+		},
+		{
+			"name": "Top IT Services Firms in New York",
+			"link": "https://clutch.co/press-releases/clutch-releases-new-report-top-it-services-firms-new-york",
+			"image": "link",
+			"altImage": "link"
+		},
+		{
+			"name": "Leaders Matrix",
+			"link": "https://clutch.co/ca/it-services/analytics/toronto/leaders-matrix",
+			"image": "link",
+			"altImage": "link"
+		},
+		{
+			"name": "List of Preeminent Big Data Companies",
+			"link": "img/press-release-headlines.jpg",
+			"image": "img",
+			"altImage": "img"
+		},
+		{
+			"name": "Leading Marketing Analytics Consultants",
+			"link": "pdf/Leading-Marketing-Analytics-Consultants.pdf",
+			"image": "pdf",
+			"altImage": "pdf"
+		}
+	]
+}
