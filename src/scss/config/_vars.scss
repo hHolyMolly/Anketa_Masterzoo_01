@@ -1,0 +1,19 @@
+//< " ПЕРЕМЕННЫЕ " >=============================================================================================================>//
+
+// ОБЩИЕ НАСТРОЙКИ СТРАНИЦЫ
+$minWidth: 320;
+$maxWidth: 320;
+$maxWidthContainer: 1200;
+$containerPadding: 30;
+
+:root {
+  // БРЕЙКПОИНТЫ
+  --header-mobile: 991.98px;
+
+  // ЦВЕТА
+  --color-white: #ffffff;
+  --color-dark: #000000;
+
+  --background-page: #ffffff;
+  --font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
